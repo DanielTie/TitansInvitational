@@ -39,3 +39,8 @@ body {
     height: 250px;
     float:left;
   }
+ .right{
+    width: 250px;
+    height: 250px;
+    float:right;
+  }
