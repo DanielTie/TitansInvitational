@@ -6,6 +6,12 @@ body {
  /*margin-right: 200px;
   margin-top: 200px;*/
 }
+
+table, th, td {
+  border:1px solid black;
+}
+
+
       /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
