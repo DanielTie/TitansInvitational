@@ -50,6 +50,22 @@ tr:nth-child(even) {
   background-color: #04AA6D;
   color: white;
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50.00%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
  .left{
     width: 350px;
     height: 350px;
